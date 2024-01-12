@@ -23,6 +23,11 @@ int main(void) {
 				arr[j] = s;
 			}
 		}
+
+		for (int k = 0; k < _countof(arr); k++) {
+			printf("%d ", arr[k]);
+		}
+		printf("\n");
 	}
 
 	printf("Min: %d", arr[0]);
