@@ -43,6 +43,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "playStarPrint1", "playStarP
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "playStarPrint2", "playStarPrint2\playStarPrint2.vcxproj", "{17E77F92-59AA-4C2A-B310-65F6B9BB8618}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "arrayMax", "arrayMax\arrayMax.vcxproj", "{4358DCA2-9DF8-4EF9-8CFB-F5B14F7EFF1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -211,6 +213,14 @@ Global
 		{17E77F92-59AA-4C2A-B310-65F6B9BB8618}.Release|x64.Build.0 = Release|x64
 		{17E77F92-59AA-4C2A-B310-65F6B9BB8618}.Release|x86.ActiveCfg = Release|Win32
 		{17E77F92-59AA-4C2A-B310-65F6B9BB8618}.Release|x86.Build.0 = Release|Win32
+		{4358DCA2-9DF8-4EF9-8CFB-F5B14F7EFF1C}.Debug|x64.ActiveCfg = Debug|x64
+		{4358DCA2-9DF8-4EF9-8CFB-F5B14F7EFF1C}.Debug|x64.Build.0 = Debug|x64
+		{4358DCA2-9DF8-4EF9-8CFB-F5B14F7EFF1C}.Debug|x86.ActiveCfg = Debug|Win32
+		{4358DCA2-9DF8-4EF9-8CFB-F5B14F7EFF1C}.Debug|x86.Build.0 = Debug|Win32
+		{4358DCA2-9DF8-4EF9-8CFB-F5B14F7EFF1C}.Release|x64.ActiveCfg = Release|x64
+		{4358DCA2-9DF8-4EF9-8CFB-F5B14F7EFF1C}.Release|x64.Build.0 = Release|x64
+		{4358DCA2-9DF8-4EF9-8CFB-F5B14F7EFF1C}.Release|x86.ActiveCfg = Release|Win32
+		{4358DCA2-9DF8-4EF9-8CFB-F5B14F7EFF1C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
