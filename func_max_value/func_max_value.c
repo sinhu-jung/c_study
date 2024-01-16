@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int * getValue() {
-	static int a[3] = { 0 };
+	int a[3] = { 0 };
 	printf("정수 3개를 입력 하세요: ");
 	for (int i = 0; i < 3; i++) {
 		scanf_s("%d", &a[i]);
