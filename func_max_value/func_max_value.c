@@ -1,12 +1,10 @@
 #include <stdio.h>
 
-int * getValue() {
-	int a[3] = { 0 };
+void getValue(int * a) {
 	printf("정수 3개를 입력 하세요: ");
 	for (int i = 0; i < 3; i++) {
 		scanf_s("%d", &a[i]);
 	}
-	return a;
 }
 
 int getMax(int *value) {
@@ -18,8 +16,9 @@ int getMax(int *value) {
 }
 
 int main(void) {
-	int *value = getValue();
-	int max =  getMax(value);
+	int a[3] = { 0 };
+	getValue(a);
+	int max =  getMax(a);
 	printf("최댓값: %d\n", max);
 	return 0;
 }
