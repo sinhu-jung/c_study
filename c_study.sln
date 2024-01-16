@@ -57,6 +57,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "func_max_value", "func_max_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StringLength", "StringLength\StringLength.vcxproj", "{1A087CC2-B079-4084-9A68-E0F50A4F5B34}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DynamicMemory", "DynamicMemory\DynamicMemory.vcxproj", "{6C46197C-9AD4-4E2D-93CF-31998FC4BF9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -281,6 +283,14 @@ Global
 		{1A087CC2-B079-4084-9A68-E0F50A4F5B34}.Release|x64.Build.0 = Release|x64
 		{1A087CC2-B079-4084-9A68-E0F50A4F5B34}.Release|x86.ActiveCfg = Release|Win32
 		{1A087CC2-B079-4084-9A68-E0F50A4F5B34}.Release|x86.Build.0 = Release|Win32
+		{6C46197C-9AD4-4E2D-93CF-31998FC4BF9F}.Debug|x64.ActiveCfg = Debug|x64
+		{6C46197C-9AD4-4E2D-93CF-31998FC4BF9F}.Debug|x64.Build.0 = Debug|x64
+		{6C46197C-9AD4-4E2D-93CF-31998FC4BF9F}.Debug|x86.ActiveCfg = Debug|Win32
+		{6C46197C-9AD4-4E2D-93CF-31998FC4BF9F}.Debug|x86.Build.0 = Debug|Win32
+		{6C46197C-9AD4-4E2D-93CF-31998FC4BF9F}.Release|x64.ActiveCfg = Release|x64
+		{6C46197C-9AD4-4E2D-93CF-31998FC4BF9F}.Release|x64.Build.0 = Release|x64
+		{6C46197C-9AD4-4E2D-93CF-31998FC4BF9F}.Release|x86.ActiveCfg = Release|Win32
+		{6C46197C-9AD4-4E2D-93CF-31998FC4BF9F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
